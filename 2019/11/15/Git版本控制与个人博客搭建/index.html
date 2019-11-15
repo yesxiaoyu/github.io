@@ -51,15 +51,15 @@
   };
 </script>
 
-  <meta name="description" content="一、Git版本控制 大多IDE开发工具都会带有Git模块，如PyCharm等，在IDE中配置好Git就不用再使用命令进行版本控制了。使用命令行进行版本控制，只是在初始配置时需要几条命令，之后再commit时只需要如下两条命令。 ·git commit -m &amp;quot;2019-11-15&amp;quot; &#x2F;&#x2F;引号中的内容为对该文件的描述 ·git push origin master参考资料：htt">
+  <meta name="description" content="一、Git版本控制 大多IDE开发工具都会带有Git模块，如PyCharm等，在IDE中配置好Git就不用再使用命令进行版本控制了。使用命令行进行版本控制，只是在初始配置时需要几条命令，之后再commit时只需要如下命令。 ·git add .                        &#x2F;&#x2F;添加新文件 ·git commit -m &amp;quot;2019-11-15&amp;quot;        &#x2F;">
 <meta name="keywords" content="工具使用">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Git版本控制与个人博客搭建">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;15&#x2F;Git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E4%B8%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA&#x2F;index.html">
 <meta property="og:site_name" content="李鸿宇的博客">
-<meta property="og:description" content="一、Git版本控制 大多IDE开发工具都会带有Git模块，如PyCharm等，在IDE中配置好Git就不用再使用命令进行版本控制了。使用命令行进行版本控制，只是在初始配置时需要几条命令，之后再commit时只需要如下两条命令。 ·git commit -m &amp;quot;2019-11-15&amp;quot; &#x2F;&#x2F;引号中的内容为对该文件的描述 ·git push origin master参考资料：htt">
+<meta property="og:description" content="一、Git版本控制 大多IDE开发工具都会带有Git模块，如PyCharm等，在IDE中配置好Git就不用再使用命令进行版本控制了。使用命令行进行版本控制，只是在初始配置时需要几条命令，之后再commit时只需要如下命令。 ·git add .                        &#x2F;&#x2F;添加新文件 ·git commit -m &amp;quot;2019-11-15&amp;quot;        &#x2F;">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-15T03:31:14.552Z">
+<meta property="og:updated_time" content="2019-11-15T09:09:20.115Z">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://yoursite.com/2019/11/15/Git%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E4%B8%8E%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
@@ -200,7 +200,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2019-11-15 10:56:48 / 修改时间：11:31:14" itemprop="dateCreated datePublished" datetime="2019-11-15T10:56:48+08:00">2019-11-15</time>
+              <time title="创建时间：2019-11-15 10:56:48 / 修改时间：17:09:20" itemprop="dateCreated datePublished" datetime="2019-11-15T10:56:48+08:00">2019-11-15</time>
             </span>
 
           
@@ -215,15 +215,16 @@
 
       
         <p>一、Git版本控制</p>
-<p>大多IDE开发工具都会带有Git模块，如PyCharm等，在IDE中配置好Git就不用再使用命令进行版本控制了。使用命令行进行版本控制，只是在初始配置时需要几条命令，之后再commit时只需要如下两条命令。</p>
-<pre><code>·git commit -m &quot;2019-11-15&quot; //引号中的内容为对该文件的描述
-·git push origin master</code></pre><p>参考资料：<a href="http://blog.haoji.me/build-blog-website-by-hexo-github.html?from=xa#zhun-bei-gong-zuo" target="_blank" rel="noopener">http://blog.haoji.me/build-blog-website-by-hexo-github.html?from=xa#zhun-bei-gong-zuo</a></p>
+<p>大多IDE开发工具都会带有Git模块，如PyCharm等，在IDE中配置好Git就不用再使用命令进行版本控制了。使用命令行进行版本控制，只是在初始配置时需要几条命令，之后再commit时只需要如下命令。</p>
+<pre><code>·git add .                        //添加新文件
+·git commit -m &quot;2019-11-15&quot;        //引号中的内容为对该文件的描述
+·git push origin master            //同步上传到github服务器</code></pre><p>参考资料：<a href="https://www.cnblogs.com/lezuw/p/11016632.html" target="_blank" rel="noopener">https://www.cnblogs.com/lezuw/p/11016632.html</a></p>
 <p>二、个人博客搭建</p>
 <p>此博客基于hexo进行搭建的。 完成简单博客搭建是很容易的，而且再次写博客进行更新上传也只需三条命令即可。</p>
-<pre><code>·hexo n &quot;新建博客名称&quot;
-·hexo g
-·hexo d</code></pre><p>本站使用的时最为流行的Next主题的第四种style。一些基础的设置需要修改_config.yml配置文件。为了让网站更美观，后期会添加各种小插件。</p>
-<p>参考资料：<a href="https://www.cnblogs.com/lezuw/p/11016632.html" target="_blank" rel="noopener">https://www.cnblogs.com/lezuw/p/11016632.html</a></p>
+<pre><code>·hexo n &quot;新建博客名称&quot;            //新建名为xx的博客            n-&gt;new
+·hexo g                            //生成修改后的文件            g-&gt;generate
+·hexo d                            //同步上传到github服务器        d-&gt;deploy</code></pre><p>本站使用的时最为流行的Next主题的第四种style。一些基础的设置需要修改_config.yml配置文件。为了让网站更美观，后期会添加各种小插件。</p>
+<p>参考资料：<a href="http://blog.haoji.me/build-blog-website-by-hexo-github.html?from=xa#zhun-bei-gong-zuo" target="_blank" rel="noopener">http://blog.haoji.me/build-blog-website-by-hexo-github.html?from=xa#zhun-bei-gong-zuo</a></p>
  <a id="more"></a> 
 <hr>
 <p>title: postName #文章页面上的显示名称，一般是中文</p>
