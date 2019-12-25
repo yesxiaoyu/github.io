@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>jupyter notebook使用介绍</title>
+    <url>/2019/12/25/jupyter-notebook%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>实用工具推荐</title>
     <url>/2019/11/25/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/</url>
     <content><![CDATA[<p>1.检查中文 markdown 编写格式规范的命令行工具，支持 API 调用。</p>
