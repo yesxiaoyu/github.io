@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="alternate" href="/atom.xml" title="李鸿宇的博客" type="application/atom+xml">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":true,"show_result":true,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":true,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="前言时光飞逝，转眼间已经到了经Baidu与中国科学院大学联合举办，由读芯术宣传的“AI未来说青年学术论坛”系列讲座的年终特别场，“第七届百度奖学金颁奖典礼暨AI未来说博士生专场”。此次会议于2020年1月5日在百度科技园举办，地点与以往在中关村的中国科学院大学不同。作为连续12场参加了2019年每月举办一次的AI未来说忠实粉丝，借此时机对此系列讲座进行回顾总结。">
+<meta name="keywords" content="参会总结">
+<meta property="og:type" content="article">
+<meta property="og:title" content="“第七届百度奖学金博士生专场”参会总结">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;01&#x2F;09&#x2F;%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93&#x2F;index.html">
+<meta property="og:site_name" content="李鸿宇的博客">
+<meta property="og:description" content="前言时光飞逝，转眼间已经到了经Baidu与中国科学院大学联合举办，由读芯术宣传的“AI未来说青年学术论坛”系列讲座的年终特别场，“第七届百度奖学金颁奖典礼暨AI未来说博士生专场”。此次会议于2020年1月5日在百度科技园举办，地点与以往在中关村的中国科学院大学不同。作为连续12场参加了2019年每月举办一次的AI未来说忠实粉丝，借此时机对此系列讲座进行回顾总结。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;01&#x2F;09&#x2F;%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93&#x2F;%E7%99%BE%E5%BA%A6%E7%AD%BE%E5%88%B0%E5%A4%84.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;01&#x2F;09&#x2F;%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93&#x2F;%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93&#x2F;%E7%99%BE%E5%BA%A6%E7%86%8A.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;01&#x2F;09&#x2F;%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93&#x2F;%E4%BC%9A%E8%AE%AE%E6%B5%81%E7%A8%8B.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;01&#x2F;09&#x2F;%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93&#x2F;%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%90%88%E5%BD%B1.jpg">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;01&#x2F;09&#x2F;%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93&#x2F;%E5%9C%86%E6%A1%8C%E8%AE%A8%E8%AE%BA.jpg">
+<meta property="og:updated_time" content="2020-01-09T03:41:54.058Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;01&#x2F;09&#x2F;%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93&#x2F;%E7%99%BE%E5%BA%A6%E7%AD%BE%E5%88%B0%E5%A4%84.jpg">
+
+<link rel="canonical" href="http://yoursite.com/2020/01/09/%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>“第七届百度奖学金博士生专场”参会总结 | 李鸿宇的博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">李鸿宇的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">高山仰止，景行行止，虽不能至，然心向往之！</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签<span class="badge">3</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类<span class="badge">0</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档<span class="badge">8</span></a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+  <a href="https://github.com/yesxiaoyu" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/09/%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="李鸿宇">
+      <meta itemprop="description" content="自然语言处理">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="李鸿宇的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          “第七届百度奖学金博士生专场”参会总结
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-01-09 09:02:37 / 修改时间：11:41:54" itemprop="dateCreated datePublished" datetime="2020-01-09T09:02:37+08:00">2020-01-09</time>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>时光飞逝，转眼间已经到了经Baidu与中国科学院大学联合举办，由读芯术宣传的“AI未来说青年学术论坛”系列讲座的年终特别场，“第七届百度奖学金颁奖典礼暨AI未来说博士生专场”。此次会议于2020年1月5日在百度科技园举办，地点与以往在中关村的中国科学院大学不同。作为连续12场参加了2019年每月举办一次的AI未来说忠实粉丝，借此时机对此系列讲座进行回顾总结。</p>
+<a id="more"></a> 
+
+<h2 id="系列讲座总结"><a href="#系列讲座总结" class="headerlink" title="系列讲座总结"></a>系列讲座总结</h2><p>每期分享的专家与主题来自<a href="https://mp.weixin.qq.com/s/nEC8MUe7vvozPeej1hpybA" target="_blank" rel="noopener">读芯术</a>的整理。</p>
+<p>第一期 数据挖掘专场</p>
+<ol>
+<li>李国杰院士：理性认识人工智能的“头雁”作用</li>
+<li>百度熊辉教授：大数据智能化人才管理</li>
+<li>清华唐杰教授：网络表示学习理论及应用</li>
+<li>瑞莱智慧刘强博士：深度学习时代的个性化推荐</li>
+<li>清华柴成亮博士：基于人机协作的数据管理</li>
+</ol>
+<p>第二期 自然语言处理专场</p>
+<ol>
+<li>中科院张家俊：面向自然语言生成的同步双向推断模型</li>
+<li>北邮李蕾：关于自动文本摘要的分析与讨论</li>
+<li>百度孙珂：对话技术的产业化应用与问题探讨</li>
+<li>阿里谭继伟：基于序列到序列模型的文本摘要及淘宝的实践</li>
+<li>哈工大刘一佳：通过句法分析看上下文相关词向量</li>
+</ol>
+<p>第三期 计算机视觉专场</p>
+<ol>
+<li>北大彭宇新：跨媒体智能分析与应用</li>
+<li>清华鲁继文：深度强化学习与视觉内容理解</li>
+<li>百度李颖超：百度增强现实技术及应⽤</li>
+<li>中科院张士峰：基于深度学习的通用物体检测算法对比探索</li>
+<li>港中文李弘扬 ：物体检测最新进展</li>
+</ol>
+<p>第四期 语音技术专场</p>
+<ol>
+<li>中科院陶建华：语音技术现状与未来</li>
+<li>清华大学吴及：音频信号的深度学习处理方法</li>
+<li>小米王育军：小爱背后的小米语音技术</li>
+<li>百度康永国：AI 时代的百度语音技术</li>
+<li>中科院刘斌：基于联合对抗增强训练的鲁棒性端到端语音识别</li>
+</ol>
+<p>第五期 量子计算专场</p>
+<ol>
+<li>清华大学翟荟：Discovering Quantum Mechanics with Machine Learning</li>
+<li>南方科技大学鲁大为：量子计算与人工智能的碰撞</li>
+<li>荷兰国家数学和计算机科学中心（CWI）李绎楠：大数据时代下的量子计算</li>
+<li>苏黎世联邦理工学院（ETH）杨宇翔：量子精密测量</li>
+<li>百度段润尧：量子架构——机遇与挑战</li>
+</ol>
+<p>第六期 机器学习专场</p>
+<ol>
+<li>中科院张文生：健康医疗大数据时代的认知计算</li>
+<li>中科院庄福振：基于知识共享的机器学习算法研究及应用</li>
+<li>百度胡晓光：飞桨（PaddlePaddle）核心技术与应用实践</li>
+<li>清华大学王奕森：Adversarial Machine Learning: Attack and Defence</li>
+<li>南京大学赵申宜：SCOPE - Scalable Composite Optimization for Learning</li>
+</ol>
+<p>第七期 自动驾驶专场</p>
+<ol>
+<li>北京大学查红彬：基于数据流处理的SLAM技术</li>
+<li>清华大学邓志东：自动驾驶的“感”与“知” - 挑战与机遇</li>
+<li>百度朱帆：开放时代的自动驾驶 - 百度Apollo计划</li>
+<li>北理宋文杰：时空域下智能车辆未知区域自主导航技术</li>
+</ol>
+<p>第八期 深度学习专场</p>
+<ol>
+<li>中科院文新：深度学习入门基础与学习资源</li>
+<li>中科院陈智能：计算机视觉经典——深度学习与目标检测</li>
+<li>中科院付鹏：深度学习与机器阅读</li>
+</ol>
+<p>第九期 个性化内容推荐专场</p>
+<ol>
+<li>人民大学赵鑫：基于知识与推理的序列化推荐技术研究</li>
+<li>中科院赵军：知识图谱关键技术及其在推荐系统中的应用</li>
+</ol>
+<p>第十期 视频理解与推荐专场</p>
+<ol>
+<li>北京大学袁晓如：智能数据可视分析</li>
+</ol>
+<p>第十一期 信息检索与知识图谱专场</p>
+<ol>
+<li>人民大学徐君：智能搜索中的排序-突破概率排序准则</li>
+<li>北京邮电大学邵蓥侠：知识图谱高效嵌入方法</li>
+<li>百度宋勋超：百度大规模知识图谱构建及智能应用</li>
+<li>百度周景博：POI知识图谱的构建及应用</li>
+<li>百度冯知凡：基于知识图谱的多模认知技术及智能应用</li>
+</ol>
+<h2 id="第十二期-第七届百度奖学金颁奖典礼暨AI未来说博士生专场"><a href="#第十二期-第七届百度奖学金颁奖典礼暨AI未来说博士生专场" class="headerlink" title="第十二期 第七届百度奖学金颁奖典礼暨AI未来说博士生专场"></a>第十二期 第七届百度奖学金颁奖典礼暨AI未来说博士生专场</h2><p>秋招去过百度面试，但是是在上地十街附近，虽然距离中关村软件园ZPARK的百度科技园也不远，但是此次确实是第一次来到传说中的后厂村。周围遍布各大互联网公司，新浪、网易、Neusoft等等，刚好过完元旦，处处布满年味的气息。<img src="./%E7%99%BE%E5%BA%A6%E7%AD%BE%E5%88%B0%E5%A4%84.jpg" alt="百度签到处年味十足"><br><img src="./%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93/%E7%99%BE%E5%BA%A6%E7%86%8A.jpg" alt="可爱的百度熊夹道欢迎"></p>
+<p>使用一句话对整此会议的总结就是：的确很特别，也充满惊喜。<img src="./%E4%BC%9A%E8%AE%AE%E6%B5%81%E7%A8%8B.jpg" alt="会议流程"></p>
+<h3 id="百度奖学金颁奖典礼"><a href="#百度奖学金颁奖典礼" class="headerlink" title="百度奖学金颁奖典礼"></a>百度奖学金颁奖典礼</h3><p>百度奖学金在7年内为66人提供1300万，用于资金支持和技术指导。本次为第七届，共有10位海内外博士获奖，每人20万RMB，这对人才培养和科技创新具有重要意义。<img src="./%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%90%88%E5%BD%B1.jpg" alt="百度奖学金合影"></p>
+<h3 id="茶歇"><a href="#茶歇" class="headerlink" title="茶歇"></a>茶歇</h3><p>在短暂的茶歇期间，听取了来自中科院的常建龙博士分享的部分研究内容。首次接触到<strong>基于关系的深度学习</strong>这一领域，开拓了眼界。个人对于常博士使用小样本分类问题来解决聚类问题的思想十分感兴趣。另外讲真的，百度的蛋糕很好吃。</p>
+<h3 id="博士讲座"><a href="#博士讲座" class="headerlink" title="博士讲座"></a>博士讲座</h3><ul>
+<li>罗宇男博士：使用AI辅助科学发现，如医药(老药新用)、生物科技以及智慧农业等领域。</li>
+<li>董胤蓬博士：对抗样本鲁棒性，主要研究基于黑盒和白盒的攻击方法。</li>
+<li>应智韬博士：图神经网络在推荐系统领域的应用，如GraphSAGE算法。</li>
+<li>桂韬博士：Social Media领域的自然语言处理技术，对网络语言价值总结为两条：多模态网络语言能够对早期抑郁症发现提供帮助，网络语言交互可以对用户行为进行预测。<a href="https://github.com/guitaowufeng" target="_blank" rel="noopener">桂韬博士的GitHub</a></li>
+</ul>
+<h3 id="圆桌讨论"><a href="#圆桌讨论" class="headerlink" title="圆桌讨论"></a>圆桌讨论</h3><p>这是我最感兴趣的一part，最大的惊喜是知道了我在微博上关注良久的爱可可-爱生活老师就是来自北邮的陈光老师。虽然我(totally a loser)在学术领域的成就远不及获得百度奖学金获得者，但在陈光老师采访他们的交流过程中，很多处都产生了强烈的共鸣。<img src="./%E5%9C%86%E6%A1%8C%E8%AE%A8%E8%AE%BA.jpg" alt="圆桌讨论"></p>
+<ol>
+<li>信心、努力、坚持是克服论文0-1质变的三大法宝。</li>
+<li>工作不变，心态改变。(对他人意见的接受力、对自己的看法。)</li>
+<li>SOTA并非最终目标，应该端正研究方向。看完论文的“哦，我知道了”和“诶，有点意思”两种感受代表两类论文。</li>
+<li>论文写作的目的是有话要说，而非不得不说。</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>最大的收获是一个金句：<strong>优秀没有统一的标准，却有令人仰望的高度。</strong></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93/" rel="tag"># 参会总结</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2020/01/02/win10%E5%AE%89%E8%A3%85MySQL/" rel="next" title="win10安装MySQL">
+                  <i class="fa fa-chevron-left"></i> win10安装MySQL
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#系列讲座总结"><span class="nav-number">2.</span> <span class="nav-text">系列讲座总结</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第十二期-第七届百度奖学金颁奖典礼暨AI未来说博士生专场"><span class="nav-number">3.</span> <span class="nav-text">第十二期 第七届百度奖学金颁奖典礼暨AI未来说博士生专场</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#百度奖学金颁奖典礼"><span class="nav-number">3.1.</span> <span class="nav-text">百度奖学金颁奖典礼</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#茶歇"><span class="nav-number">3.2.</span> <span class="nav-text">茶歇</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#博士讲座"><span class="nav-number">3.3.</span> <span class="nav-text">博士讲座</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#圆桌讨论"><span class="nav-number">3.4.</span> <span class="nav-text">圆桌讨论</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">4.</span> <span class="nav-text">总结</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="李鸿宇"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">李鸿宇</p>
+  <div class="site-description" itemprop="description">自然语言处理</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/yesxiaoyu" title="GitHub &amp;rarr; https:&#x2F;&#x2F;github.com&#x2F;yesxiaoyu" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/qq_19297719" title="CSDN &amp;rarr; https:&#x2F;&#x2F;blog.csdn.net&#x2F;qq_19297719" rel="noopener" target="_blank"><i class="fa fa-fw fa-heartbeat"></i>CSDN</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">李鸿宇</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script>
+<script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+
+
+
+  
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>

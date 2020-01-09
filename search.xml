@@ -1,12 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>win10安装MySQL</title>
-    <url>/2020/01/02/win10%E5%AE%89%E8%A3%85MySQL/</url>
-    <content><![CDATA[<h1 id="Windows10下安装MySQL8-0版本"><a href="#Windows10下安装MySQL8-0版本" class="headerlink" title="Windows10下安装MySQL8.0版本"></a>Windows10下安装MySQL8.0版本</h1><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://www.jianshu.com/p/34f4cbcefe49" target="_blank" rel="noopener">Win10下安装MySQL8.0版本</a></p>
+    <title>“第七届百度奖学金博士生专场”参会总结</title>
+    <url>/2020/01/09/%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>时光飞逝，转眼间已经到了经Baidu与中国科学院大学联合举办，由读芯术宣传的“AI未来说青年学术论坛”系列讲座的年终特别场，“第七届百度奖学金颁奖典礼暨AI未来说博士生专场”。此次会议于2020年1月5日在百度科技园举办，地点与以往在中关村的中国科学院大学不同。作为连续12场参加了2019年每月举办一次的AI未来说忠实粉丝，借此时机对此系列讲座进行回顾总结。</p>
+<a id="more"></a> 
+
+<h2 id="系列讲座总结"><a href="#系列讲座总结" class="headerlink" title="系列讲座总结"></a>系列讲座总结</h2><p>每期分享的专家与主题来自<a href="https://mp.weixin.qq.com/s/nEC8MUe7vvozPeej1hpybA" target="_blank" rel="noopener">读芯术</a>的整理。</p>
+<p>第一期 数据挖掘专场</p>
+<ol>
+<li>李国杰院士：理性认识人工智能的“头雁”作用</li>
+<li>百度熊辉教授：大数据智能化人才管理</li>
+<li>清华唐杰教授：网络表示学习理论及应用</li>
+<li>瑞莱智慧刘强博士：深度学习时代的个性化推荐</li>
+<li>清华柴成亮博士：基于人机协作的数据管理</li>
+</ol>
+<p>第二期 自然语言处理专场</p>
+<ol>
+<li>中科院张家俊：面向自然语言生成的同步双向推断模型</li>
+<li>北邮李蕾：关于自动文本摘要的分析与讨论</li>
+<li>百度孙珂：对话技术的产业化应用与问题探讨</li>
+<li>阿里谭继伟：基于序列到序列模型的文本摘要及淘宝的实践</li>
+<li>哈工大刘一佳：通过句法分析看上下文相关词向量</li>
+</ol>
+<p>第三期 计算机视觉专场</p>
+<ol>
+<li>北大彭宇新：跨媒体智能分析与应用</li>
+<li>清华鲁继文：深度强化学习与视觉内容理解</li>
+<li>百度李颖超：百度增强现实技术及应⽤</li>
+<li>中科院张士峰：基于深度学习的通用物体检测算法对比探索</li>
+<li>港中文李弘扬 ：物体检测最新进展</li>
+</ol>
+<p>第四期 语音技术专场</p>
+<ol>
+<li>中科院陶建华：语音技术现状与未来</li>
+<li>清华大学吴及：音频信号的深度学习处理方法</li>
+<li>小米王育军：小爱背后的小米语音技术</li>
+<li>百度康永国：AI 时代的百度语音技术</li>
+<li>中科院刘斌：基于联合对抗增强训练的鲁棒性端到端语音识别</li>
+</ol>
+<p>第五期 量子计算专场</p>
+<ol>
+<li>清华大学翟荟：Discovering Quantum Mechanics with Machine Learning</li>
+<li>南方科技大学鲁大为：量子计算与人工智能的碰撞</li>
+<li>荷兰国家数学和计算机科学中心（CWI）李绎楠：大数据时代下的量子计算</li>
+<li>苏黎世联邦理工学院（ETH）杨宇翔：量子精密测量</li>
+<li>百度段润尧：量子架构——机遇与挑战</li>
+</ol>
+<p>第六期 机器学习专场</p>
+<ol>
+<li>中科院张文生：健康医疗大数据时代的认知计算</li>
+<li>中科院庄福振：基于知识共享的机器学习算法研究及应用</li>
+<li>百度胡晓光：飞桨（PaddlePaddle）核心技术与应用实践</li>
+<li>清华大学王奕森：Adversarial Machine Learning: Attack and Defence</li>
+<li>南京大学赵申宜：SCOPE - Scalable Composite Optimization for Learning</li>
+</ol>
+<p>第七期 自动驾驶专场</p>
+<ol>
+<li>北京大学查红彬：基于数据流处理的SLAM技术</li>
+<li>清华大学邓志东：自动驾驶的“感”与“知” - 挑战与机遇</li>
+<li>百度朱帆：开放时代的自动驾驶 - 百度Apollo计划</li>
+<li>北理宋文杰：时空域下智能车辆未知区域自主导航技术</li>
+</ol>
+<p>第八期 深度学习专场</p>
+<ol>
+<li>中科院文新：深度学习入门基础与学习资源</li>
+<li>中科院陈智能：计算机视觉经典——深度学习与目标检测</li>
+<li>中科院付鹏：深度学习与机器阅读</li>
+</ol>
+<p>第九期 个性化内容推荐专场</p>
+<ol>
+<li>人民大学赵鑫：基于知识与推理的序列化推荐技术研究</li>
+<li>中科院赵军：知识图谱关键技术及其在推荐系统中的应用</li>
+</ol>
+<p>第十期 视频理解与推荐专场</p>
+<ol>
+<li>北京大学袁晓如：智能数据可视分析</li>
+</ol>
+<p>第十一期 信息检索与知识图谱专场</p>
+<ol>
+<li>人民大学徐君：智能搜索中的排序-突破概率排序准则</li>
+<li>北京邮电大学邵蓥侠：知识图谱高效嵌入方法</li>
+<li>百度宋勋超：百度大规模知识图谱构建及智能应用</li>
+<li>百度周景博：POI知识图谱的构建及应用</li>
+<li>百度冯知凡：基于知识图谱的多模认知技术及智能应用</li>
+</ol>
+<h2 id="第十二期-第七届百度奖学金颁奖典礼暨AI未来说博士生专场"><a href="#第十二期-第七届百度奖学金颁奖典礼暨AI未来说博士生专场" class="headerlink" title="第十二期 第七届百度奖学金颁奖典礼暨AI未来说博士生专场"></a>第十二期 第七届百度奖学金颁奖典礼暨AI未来说博士生专场</h2><p>秋招去过百度面试，但是是在上地十街附近，虽然距离中关村软件园ZPARK的百度科技园也不远，但是此次确实是第一次来到传说中的后厂村。周围遍布各大互联网公司，新浪、网易、Neusoft等等，刚好过完元旦，处处布满年味的气息。<img src="./%E7%99%BE%E5%BA%A6%E7%AD%BE%E5%88%B0%E5%A4%84.jpg" alt="百度签到处年味十足"><br><img src="./%E2%80%9C%E7%AC%AC%E4%B8%83%E5%B1%8A%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%8D%9A%E5%A3%AB%E7%94%9F%E4%B8%93%E5%9C%BA%E2%80%9D%E5%8F%82%E4%BC%9A%E6%80%BB%E7%BB%93/%E7%99%BE%E5%BA%A6%E7%86%8A.jpg" alt="可爱的百度熊夹道欢迎"></p>
+<p>使用一句话对整此会议的总结就是：的确很特别，也充满惊喜。<img src="./%E4%BC%9A%E8%AE%AE%E6%B5%81%E7%A8%8B.jpg" alt="会议流程"></p>
+<h3 id="百度奖学金颁奖典礼"><a href="#百度奖学金颁奖典礼" class="headerlink" title="百度奖学金颁奖典礼"></a>百度奖学金颁奖典礼</h3><p>百度奖学金在7年内为66人提供1300万，用于资金支持和技术指导。本次为第七届，共有10位海内外博士获奖，每人20万RMB，这对人才培养和科技创新具有重要意义。<img src="./%E7%99%BE%E5%BA%A6%E5%A5%96%E5%AD%A6%E9%87%91%E5%90%88%E5%BD%B1.jpg" alt="百度奖学金合影"></p>
+<h3 id="茶歇"><a href="#茶歇" class="headerlink" title="茶歇"></a>茶歇</h3><p>在短暂的茶歇期间，听取了来自中科院的常建龙博士分享的部分研究内容。首次接触到<strong>基于关系的深度学习</strong>这一领域，开拓了眼界。个人对于常博士使用小样本分类问题来解决聚类问题的思想十分感兴趣。另外讲真的，百度的蛋糕很好吃。</p>
+<h3 id="博士讲座"><a href="#博士讲座" class="headerlink" title="博士讲座"></a>博士讲座</h3><ul>
+<li>罗宇男博士：使用AI辅助科学发现，如医药(老药新用)、生物科技以及智慧农业等领域。</li>
+<li>董胤蓬博士：对抗样本鲁棒性，主要研究基于黑盒和白盒的攻击方法。</li>
+<li>应智韬博士：图神经网络在推荐系统领域的应用，如GraphSAGE算法。</li>
+<li>桂韬博士：Social Media领域的自然语言处理技术，对网络语言价值总结为两条：多模态网络语言能够对早期抑郁症发现提供帮助，网络语言交互可以对用户行为进行预测。<a href="https://github.com/guitaowufeng" target="_blank" rel="noopener">桂韬博士的GitHub</a></li>
+</ul>
+<h3 id="圆桌讨论"><a href="#圆桌讨论" class="headerlink" title="圆桌讨论"></a>圆桌讨论</h3><p>这是我最感兴趣的一part，最大的惊喜是知道了我在微博上关注良久的爱可可-爱生活老师就是来自北邮的陈光老师。虽然我(totally a loser)在学术领域的成就远不及获得百度奖学金获得者，但在陈光老师采访他们的交流过程中，很多处都产生了强烈的共鸣。<img src="./%E5%9C%86%E6%A1%8C%E8%AE%A8%E8%AE%BA.jpg" alt="圆桌讨论"></p>
+<ol>
+<li>信心、努力、坚持是克服论文0-1质变的三大法宝。</li>
+<li>工作不变，心态改变。(对他人意见的接受力、对自己的看法。)</li>
+<li>SOTA并非最终目标，应该端正研究方向。看完论文的“哦，我知道了”和“诶，有点意思”两种感受代表两类论文。</li>
+<li>论文写作的目的是有话要说，而非不得不说。</li>
+</ol>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>最大的收获是一个金句：<strong>优秀没有统一的标准，却有令人仰望的高度。</strong></p>
 ]]></content>
       <tags>
-        <tag>开发工具</tag>
+        <tag>参会总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>win10安装MySQL</title>
+    <url>/2020/01/02/win10%E5%AE%89%E8%A3%85MySQL/</url>
+    <content><![CDATA[<p>Windows10下安装MySQL8.0版本</p>
+<p>参考资料</p>
+<p><a href="https://www.jianshu.com/p/34f4cbcefe49" target="_blank" rel="noopener">Win10下安装MySQL8.0版本</a></p>
+]]></content>
+      <tags>
+        <tag>工具使用</tag>
       </tags>
   </entry>
   <entry>
